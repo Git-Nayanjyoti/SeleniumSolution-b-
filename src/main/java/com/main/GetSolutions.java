@@ -9,7 +9,7 @@ public class GetSolutions extends Base{
 
 	public static void main(String[] args) throws Exception {
 		
-		setBrowser(prop.getProperty("browser"), prop.getProperty("url"));
+		setBrowser(prop.getProperty("browser"), prop.getProperty("url")); //getting null pointer exception 
 		driver.findElement(By.id("search")).sendKeys(prop.getProperty("problem") + Keys.ENTER);
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]")).click();
