@@ -37,6 +37,10 @@ public class GetSolutions extends Base{
 			
 		}
 		
+		//Heading
+		///html/body/div[3]/div[2]/div[1]/div[4]/div/div[1]/div[2]/h3/a
+		///html/body/div[3]/div[2]/div[1]/div[4]/div/div[2]/div[2]/h3/a
+
 		writernew = new CSVWriter(new FileWriter("data.csv"));
 		writernew.writeAll(Answers);
 		writernew.close();
