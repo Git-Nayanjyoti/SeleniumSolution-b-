@@ -49,7 +49,7 @@ WebDriver Manager [visit](https://bonigarcia.dev/webdrivermanager/)
 
 ## How to install the project to your system
 * clone the git repo to your workspace. Use this code -
-  ` git clone https://github.com/Git-Nayanjyoti/SeleniumAssignmentC.git `
+  ` https://github.com/Git-Nayanjyoti/SeleniumSolution-b-.git `
 * Now Import the file to eclipse. (Import -> General -> Already existing project to eclipse -> browse the dir -> Finish)
 * Set the POM file with the dependencies above. (The dependencies will be presennt there if the repo is cloned. Just open the POM file and then save it to install the dependencies)
 * Add the all the libraries to your Project file. (Right click -> Build path -> Add External Archives -> Select jar Source and Apply)
